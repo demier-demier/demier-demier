@@ -6,13 +6,15 @@ I build tools for the practical questions behind AI products: which context shou
 
 My work connects software engineering, computational methods, and defensive security. These projects make the implementation, evidence, and limitations easy to inspect.
 
+**[Try the live demos →](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/)** No installation or account required. Explore synthetic examples or change the inputs directly in your browser.
+
 ## Featured projects
 
 | Project | What it does | Start here |
 | --- | --- | --- |
-| [Semantic Context Lab](https://github.com/demier-demier/semantic-context-lab) | Runs local embeddings and compares lexical, semantic, and hybrid retrieval under a context budget. | Measured retrieval results, source provenance, interactive report |
-| [MCP Contract Guard](https://github.com/demier-demier/mcp-contract-guard) | Detects changes in an agent's MCP tool definitions and requires review before accepting a new contract. | Definition fingerprints, CI gate, JSON/SARIF review output |
-| [Incident Evidence Workbench](https://github.com/demier-demier/incident-evidence-workbench) | Correlates security events into triage cases with timelines and traceable evidence. | Local investigation UI, detection rules, optional loopback model adapter |
+| [Semantic Context Lab](https://github.com/demier-demier/semantic-context-lab) | Runs local embeddings and compares lexical, semantic, and hybrid retrieval under a context budget. | [Live search demo](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/semantic-context-lab/) · source provenance · measured retrieval results |
+| [MCP Contract Guard](https://github.com/demier-demier/mcp-contract-guard) | Detects changes in an agent's MCP tool definitions and requires review before accepting a new contract. | [Live comparison demo](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/mcp-contract-guard/) · CI gate · JSON/SARIF output |
+| [Incident Evidence Workbench](https://github.com/demier-demier/incident-evidence-workbench) | Correlates security events into triage cases with timelines and traceable evidence. | [Live investigation demo](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/incident-evidence-workbench/) · browser Python analysis · evidence timelines |
 
 ## Agent engineering foundations
 
