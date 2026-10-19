@@ -8,7 +8,16 @@ My work connects software engineering, computational methods, and defensive secu
 
 **[Try the live demos →](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/)** No installation or account required. Explore synthetic examples or change the inputs directly in your browser.
 
-## Featured projects
+## Integrated systems
+
+| Project | Engineering problem | Try it |
+| --- | --- | --- |
+| [Agent Runtime Lab](https://github.com/demier-demier/agent-runtime-lab) | Durable workflow state, approval binding, worker fencing, and recovery across a side-effect boundary. | [Run, interrupt, and recover](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/agent-runtime-lab/) |
+| [Policy RAG Lab](https://github.com/demier-demier/policy-rag-lab) | Hybrid retrieval with authorization before ranking, document versions, transactional indexes, and citation revalidation. | [Search, revoke, and revalidate](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/policy-rag-lab/) |
+
+The public labs use synthetic data and simulated identities. Their repositories include persistent local implementations and failure tests; the browser demos explain where those boundaries differ.
+
+## Focused projects
 
 | Project | What it does | Start here |
 | --- | --- | --- |
@@ -24,7 +33,7 @@ My work connects software engineering, computational methods, and defensive secu
 | [Context Ledger](https://github.com/demier-demier/context-ledger) | Retrieve context with access boundaries, source versions, freshness, and citations. |
 | [Tool Approval Gateway](https://github.com/demier-demier/tool-approval-gateway) | Bind human approvals to proposed tool actions, with expiry, replay protection, and an audit trail. |
 
-All six are standalone reference implementations with original synthetic fixtures, documented tradeoffs, reproducible demos, and automated tests. The repositories distinguish measured model behavior from deterministic rules and test doubles.
+These are standalone reference implementations with original synthetic fixtures, documented tradeoffs, reproducible demos, and automated tests. The repositories distinguish measured model behavior from deterministic rules and test doubles.
 
 ## Tools I work with
 
