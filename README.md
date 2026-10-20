@@ -6,7 +6,13 @@ I build tools for the practical questions behind AI products: which context shou
 
 My work connects software engineering, computational methods, and defensive security. These projects make the implementation, evidence, and limitations easy to inspect.
 
-**[Try the live demos →](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/)** No installation or account required. Explore synthetic examples or change the inputs directly in your browser.
+**[Try the live demos →](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/)** No installation or account required. Explore public-data applications, native 3D artifacts, and interactive engineering labs.
+
+## Applied cases with inspectable evidence
+
+- **[CISA vulnerability research](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/policy-rag-lab/kev.html):** search 120 attributed public records with governed evidence export. An optional local Qwen CLI produces a bounded draft with measured inference and source binding.
+- **[Durable analyst report](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/agent-runtime-lab/kev.html):** follow the same evidence through an approval-bound file publication, an actual worker crash, and recovery that verifies the original bytes. Model suggestions remain subject to review.
+- **[Native CAD to Blender](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/studio-agent-bridge/):** inspect an original Raspberry Pi 5 mounting tray and download editable native files. Two reopened Fusion variants preserve 13 parameters and 43 history items; physical fit is not validated. [Source](https://github.com/demier-demier/studio-agent-bridge).
 
 ## Integrated systems
 
@@ -15,7 +21,7 @@ My work connects software engineering, computational methods, and defensive secu
 | [Agent Runtime Lab](https://github.com/demier-demier/agent-runtime-lab) | Durable workflow state, approval binding, worker fencing, and recovery across a side-effect boundary. | [Run, interrupt, and recover](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/agent-runtime-lab/) |
 | [Policy RAG Lab](https://github.com/demier-demier/policy-rag-lab) | Hybrid retrieval with authorization before ranking, document versions, transactional indexes, and citation revalidation. | [Search, revoke, and revalidate](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/policy-rag-lab/) |
 
-The public labs use synthetic data and simulated identities. Their repositories include persistent local implementations and failure tests; the browser demos explain where those boundaries differ.
+The original policy and runtime labs use synthetic data and simulated identities. The CISA application uses a bounded public-data snapshot. Their repositories include persistent local implementations and failure tests; the browser demos explain where those boundaries differ.
 
 ## Focused projects
 
