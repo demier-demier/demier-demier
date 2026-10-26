@@ -19,6 +19,8 @@ My work connects software engineering, computational methods, and defensive secu
 
 The Studio follow-up now [rejects that known Unreal launch failure before imports](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/studio-agent-bridge/source-binding/#unreal-preflight). Two real blocked requests preserved their native project state with zero subprocesses. A separately selected GPU build and fresh inspection verified the original lab's 1,571 actors and 84 shared mesh assets. The rule is specific to the observed macOS/Unreal 5.7.4 environment-build combination; no appearance or performance claim is made for this run.
 
+The environment's current v2 download also [checks native files before sharing](https://github.com/demier-demier/studio-agent-bridge/tree/main/examples/publication_safety): independently reopened Blender copies, narrowly rewritten FBX path metadata, a separately verified Unreal transfer, and a publication gate that scans decompressed scene data. Historical inputs remain identifiable by their original hashes. This is a bounded privacy and model-preservation check, not a general security certification.
+
 ## Integrated systems
 
 | Project | Engineering problem | Try it |
