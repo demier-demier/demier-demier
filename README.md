@@ -22,7 +22,7 @@ The Studio follow-up now [rejects that known Unreal launch failure before import
 
 The environment's current v2 download also [checks native files before sharing](https://github.com/demier-demier/studio-agent-bridge/tree/main/examples/publication_safety): independently reopened Blender copies, narrowly rewritten FBX path metadata, a separately verified Unreal transfer, and a publication gate that scans decompressed scene data. Historical inputs remain identifiable by their original hashes. This is a bounded privacy and model-preservation check, not a general security certification.
 
-The latest [optical inspection station pilot](https://github.com/demier-demier/studio-agent-bridge/tree/main/examples/inspection_workcell) adds 249 named mesh parts while preserving the lab's original mesh observations. Matching-camera renders and fresh native readback expose the actual change and a corrected mounting defect. This pilot is verified in Blender only; its Unreal transfer and human visual acceptance remain pending.
+The [inspection workcell revision](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/studio-agent-bridge/inspection-workcell/) now includes six editable utility routes, a measured disconnected-cable rejection, and fresh Blender/Unreal image evidence. The sanitized handoff preserves the measured prior mesh fields and imports 1,988 mesh instances into a separate Unreal project. Explore the 3D mesh or download the editable scene. [Reproduction and evidence](https://github.com/demier-demier/studio-agent-bridge/tree/main/examples/inspection_workcell) distinguish geometry checks from electrical function, motion safety and renderer equivalence; human visual acceptance remains pending.
 
 ## Integrated systems
 
