@@ -1,8 +1,8 @@
 # Bernardo Demier
 
-**Applied AI · Agent systems · Security engineering**
+**Security engineering · Rust · Applied AI**
 
-I build tools for the practical questions behind AI products: which context should an agent see, how do we evaluate its behavior, and what should happen before it acts?
+I build tools for security investigations and reliable AI systems: which events deserve attention, can the evidence be verified, and what should happen before an agent acts?
 
 My work connects software engineering, computational methods, and defensive security. These projects make the implementation, evidence, and limitations easy to inspect.
 
@@ -10,6 +10,7 @@ My work connects software engineering, computational methods, and defensive secu
 
 ## Applied cases with inspectable evidence
 
+- **[Postgres Audit Guard — Rust security tooling](https://github.com/demier-demier/postgres-audit-guard):** bounded PostgreSQL log triage, externally anchored evidence verification and SQL-free ECS exports for existing security pipelines. A real isolated PostgreSQL lab exercises privilege changes, data export and logging suppression with synthetic data. [Reproduce the tests and measurements](https://github.com/demier-demier/postgres-audit-guard/blob/main/docs/RESULTS.md). Detection is deterministic; live Elastic ingestion and production readiness are not claimed.
 - **[Native Rust robotics and granular physics](https://github.com/demier-demier/studio-agent-bridge/tree/main/rust/scenward-render):** live wgpu/Metal integration of 961,191 grains, native MuJoCo robot dynamics and a detailed Blender laboratory. [Measured GPU/host profiles](https://github.com/demier-demier/studio-agent-bridge/blob/main/rust/scenward-render/PROFILING.md) separate solver, coupling and rendering costs, with reproducible reports and independent CPU-reference checks. Full-detail physical real time remains unmet; this is classical simulation/control, not a trained policy.
 - **[Evidence Review Workbench](https://github.com/demier-demier/policy-rag-lab/blob/main/docs/evidence-review.md):** exact source spans, persistent claim reviews, explicit approval decisions and revocation-aware export. Three real HTTP/SQLite workflows cover technical disclosure, support policy and robotic inspection handoff. The cases are synthetic and decisions scripted; source integrity is checked automatically, semantic truth is not. [Observed outcomes](https://github.com/demier-demier/policy-rag-lab/blob/main/docs/review-observed.json).
 - **[CISA vulnerability research](https://bernardo-demier-ai-lab.fancy-fly-9200.chatgpt.site/policy-rag-lab/kev.html):** search 120 attributed public records with governed evidence export. An optional local Qwen CLI produces a bounded draft with measured inference and source binding.
@@ -56,4 +57,4 @@ These are standalone reference implementations with original synthetic fixtures,
 
 Python, TypeScript, JavaScript, Rust, SQL, React, Next.js, Node.js, APIs, and local AI inference.
 
-I am particularly interested in AI product engineering, agent infrastructure, retrieval, evaluation, and security controls that people can understand and operate.
+My current focus is defensive security across applications, data platforms, identity, incident investigation and AI systems, with integrations into existing tools and reproducible validation.
